@@ -4,10 +4,10 @@ public class StupidSort {
 
     public static void sort(int[] array) {
 
-        int length = array.length;
+        int n = array.length;
         int index = 0;
 
-        while (index < length) {
+        while (index < n) {
             if (index == 0) {
                 index++;
             }

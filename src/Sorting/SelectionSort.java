@@ -4,13 +4,13 @@ public class SelectionSort {
 
     public static void sort(int[] array) {
 
-        int arrayLength = array.length;
+        int n = array.length;
 
-        for (int i = 0; i < arrayLength - 1; i++) {
+        for (int i = 0; i < n - 1; i++) {
 
             int min = i;
 
-            for (int j = i + 1; j < arrayLength; j++) {
+            for (int j = i + 1; j < n; j++) {
                 if (array[j] < array[min]) {
                     min = j;
                 }

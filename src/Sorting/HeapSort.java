@@ -3,13 +3,13 @@ package Sorting;
 public class HeapSort {
 
     public static void sort(int[] array) {
-        int length = array.length;
+        int n = array.length;
 
-        for (int i = length/2 - 1; i >= 0; i--) {
-            heap(array, length, i);
+        for (int i = n/2 - 1; i >= 0; i--) {
+            heap(array, n, i);
         }
 
-        for (int i = length-1; i >= 0; i--) {
+        for (int i = n-1; i >= 0; i--) {
             int temp = array[0];
             array[0] = array[i];
             array[i] = temp;
