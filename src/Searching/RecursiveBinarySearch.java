@@ -8,7 +8,7 @@ public class RecursiveBinarySearch {
     }
 
 
-    private static int search(int[] array, int x, int lower, int upper) {
+    public static int search(int[] array, int x, int lower, int upper) {
         int mid = (lower + upper) / 2;
 
         if (x == array[mid]) {
