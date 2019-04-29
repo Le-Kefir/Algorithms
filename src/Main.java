@@ -1,7 +1,4 @@
-import Sorting.BubbleSort;
-import Sorting.InsertionSort;
-import Sorting.MergeSort;
-import Sorting.SelectionSort;
+import Sorting.*;
 
 public class Main {
 
@@ -9,7 +6,7 @@ public class Main {
 
         int[] unsortedArray = { 5, 61, 100, 3, 41, 57, 12, 32, 8, 6};
 
-        MergeSort.sort(unsortedArray);
+        QuickSort.sort(unsortedArray);
     }
 
 
